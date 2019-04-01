@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300');
 
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+
+
+
 body {
-  color:#37474f;
+  color:#333;
   padding:0; 
   margin:0; 
   margin-bottom:5rem; 
-  font-family: Helvetica, Arial, sans-serif; 
-  background:#e2f1f8;
+  font-family: 'Heebo', sans-serif;
+  background:#ccc;
   line-height: 1.75;
 }
+
+
+@media screen and (orientation:portrait){
+
+  body{
+    font-family: 'Times New Roman' , Times, serif;
+  }
+}
+
 
 a{
   color:#222;
